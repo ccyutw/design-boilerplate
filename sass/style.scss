@@ -1,2 +1,48 @@
 @import "compass/reset";
 @import "compass/css3";
+
+@mixin circle($background-color) {
+  background-color: $background-color;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+body {
+  background-color: grey;
+}
+
+.container {
+  width: 1000px;
+  margin: 10px auto;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .header {
+    background-image: url(../img/bgimg.png);
+    height: 800px;
+    width: 100%;
+  }
+
+  .bar {
+    background-color: #fcfcfc;
+    .red-circle {
+      @include circle(red);
+    }
+
+    .yellow-circle {
+      @include circle(#ffef25)
+    }
+
+    .green-circle {
+      @include circle(green)
+    }
+  }
+
+  .login-info {
+    float: right;
+  }
+
+}
