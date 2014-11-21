@@ -22,27 +22,41 @@ body {
 
   .header {
     background-image: url(../img/bgimg.png);
-    height: 800px;
+    height: 600px;
     width: 100%;
-  }
 
-  .bar {
-    background-color: #fcfcfc;
-    .red-circle {
-      @include circle(red);
+    .bar {
+      background-color: #fcfcfc;
+      .red-circle {
+        @include circle(red);
+      }
+
+      .yellow-circle {
+        @include circle(#ffef25)
+      }
+
+      .green-circle {
+        @include circle(green)
+      }
     }
 
-    .yellow-circle {
-      @include circle(#ffef25)
-    }
+    .login-info {
+      float: right;
+      margin-top: 20px;
 
-    .green-circle {
-      @include circle(green)
+      a {
+        color: #ffffff;
+        margin: 5px;
+        text-decoration: none;
+      }
+      .signin-btn {
+        padding: 8px;
+        margin-right: 20px;
+        border: 1px solid #ffffff;
+      }
     }
-  }
-
-  .login-info {
-    float: right;
+  
   }
 
 }
+
