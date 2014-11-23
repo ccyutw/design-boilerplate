@@ -10,6 +10,7 @@
   margin: 10px 5px;
 }
 
+
 body {
   background-color: grey;
 }
@@ -55,7 +56,15 @@ body {
         border: 1px solid #ffffff;
       }
     }
-  
+    .search-info {
+      width:40%;
+      margin: 300px auto;
+      h2,h4, .search-btn,.search-fields {
+        text-align: center;
+      }
+
+    }
+
   }
 
 }

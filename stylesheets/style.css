@@ -63,29 +63,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 13, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
 body {
   background-color: grey;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 18, ../sass/style.scss */
 .container {
   width: 1000px;
   margin: 10px auto;
   border-radius: 10px;
   overflow: hidden;
 }
-/* line 23, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 .container .header {
   background-image: url(../img/bgimg.png);
   height: 600px;
   width: 100%;
 }
-/* line 28, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .container .header .bar {
   background-color: #fcfcfc;
 }
-/* line 30, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .container .header .bar .red-circle {
   background-color: red;
   border-radius: 100%;
@@ -94,7 +94,7 @@ body {
   display: inline-block;
   margin: 10px 5px;
 }
-/* line 34, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .container .header .bar .yellow-circle {
   background-color: #ffef25;
   border-radius: 100%;
@@ -103,7 +103,7 @@ body {
   display: inline-block;
   margin: 10px 5px;
 }
-/* line 38, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .container .header .bar .green-circle {
   background-color: green;
   border-radius: 100%;
@@ -112,25 +112,29 @@ body {
   display: inline-block;
   margin: 10px 5px;
 }
-/* line 43, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 .container .header .login-info {
   float: right;
   margin-top: 20px;
 }
-/* line 47, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 .container .header .login-info a {
   color: #ffffff;
   margin: 5px;
   text-decoration: none;
 }
-/* line 52, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .container .header .login-info .signin-btn {
   padding: 8px;
   margin-right: 20px;
   border: 1px solid #ffffff;
 }
-/* line 58, ../sass/style.scss */
-.container .header .searchInfo {
-  width: 400px;
-  margin: 0 auto;
+/* line 59, ../sass/style.scss */
+.container .header .search-info {
+  width: 40%;
+  margin: 300px auto;
+}
+/* line 62, ../sass/style.scss */
+.container .header .search-info h2, .container .header .search-info h4, .container .header .search-info .search-btn, .container .header .search-info .search-fields {
+  text-align: center;
 }
