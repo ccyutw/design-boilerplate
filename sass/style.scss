@@ -409,7 +409,7 @@ body {
 
   }
 
-  .footer {
+  .bottom {
     background-image: url(../img/footer.jpg);
     height: 300px;
     width: 100%;
@@ -443,6 +443,46 @@ body {
       border: none;
       font-size: 1.4em;
     }
+  }
+
+  footer {
+    background-color: #fcfcfc;
+    height: 80px;
+    font-size: 1.5em;
+
+    ul {
+
+      padding: 30px 0 0 30px;
+
+      li {
+        display: inline-block;
+        margin: auto 20px;
+        a {
+          text-decoration: none;
+          color: #adadad;
+        }
+
+        i {
+          float: right;
+          margin: auto 30px;
+          font-size: 1.4em;
+        }
+
+        .fa-twitter {
+         color: #3a7aaf;;
+        }
+
+        .fa-facebook {
+          color: #3d5ea8;
+        }
+
+      }
+
+      li:last-child {
+        margin-left: 200px;
+      }
+    }
+
   }
 
 }

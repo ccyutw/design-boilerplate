@@ -474,24 +474,24 @@ body {
   border-radius: 50%;
 }
 /* line 412, ../sass/style.scss */
-.container .footer {
+.container .bottom {
   background-image: url(../img/footer.jpg);
   height: 300px;
   width: 100%;
   text-align: center;
 }
 /* line 418, ../sass/style.scss */
-.container .footer .search-fields {
+.container .bottom .search-fields {
   padding-top: 100px;
 }
 /* line 422, ../sass/style.scss */
-.container .footer span {
+.container .bottom span {
   font-size: 2.3em;
   margin-right: 30px;
   color: white;
 }
 /* line 428, ../sass/style.scss */
-.container .footer input {
+.container .bottom input {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   background-color: #fcfcfc;
@@ -501,11 +501,49 @@ body {
   font-size: 1.4em;
 }
 /* line 438, ../sass/style.scss */
-.container .footer button {
+.container .bottom button {
   width: 10%;
   height: 50px;
   color: #fcfcfc;
   background-color: #66d690;
   border: none;
   font-size: 1.4em;
+}
+/* line 448, ../sass/style.scss */
+.container footer {
+  background-color: #fcfcfc;
+  height: 80px;
+  font-size: 1.5em;
+}
+/* line 453, ../sass/style.scss */
+.container footer ul {
+  padding: 30px 0 0 30px;
+}
+/* line 457, ../sass/style.scss */
+.container footer ul li {
+  display: inline-block;
+  margin: auto 20px;
+}
+/* line 460, ../sass/style.scss */
+.container footer ul li a {
+  text-decoration: none;
+  color: #adadad;
+}
+/* line 465, ../sass/style.scss */
+.container footer ul li i {
+  float: right;
+  margin: auto 30px;
+  font-size: 1.4em;
+}
+/* line 471, ../sass/style.scss */
+.container footer ul li .fa-twitter {
+  color: #3a7aaf;
+}
+/* line 475, ../sass/style.scss */
+.container footer ul li .fa-facebook {
+  color: #3d5ea8;
+}
+/* line 481, ../sass/style.scss */
+.container footer ul li:last-child {
+  margin-left: 200px;
 }
