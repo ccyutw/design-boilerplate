@@ -63,17 +63,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 14, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 body {
   background-color: grey;
+  font-family: sans-serif;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 .text-centered {
   text-align: center;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 .container {
   width: 1000px;
   margin: 10px auto;
@@ -81,29 +82,29 @@ body {
   overflow: hidden;
   font-size: 62.5%;
 }
-/* line 31, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 .container .fa-7x {
   font-size: 7em;
 }
-/* line 35, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .container .fa-3x {
   font-size: 5em;
 }
-/* line 39, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 .container .fa-2x {
   font-size: 3em;
 }
-/* line 43, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .container .header {
-  background-image: url(../img/bgimg.png);
+  background-image: url(../img/header.jpg);
   height: 600px;
   width: 100%;
 }
-/* line 48, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .container .header .bar {
   background-color: #fcfcfc;
 }
-/* line 50, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .container .header .bar .red-circle {
   background-color: red;
   border-radius: 100%;
@@ -112,7 +113,7 @@ body {
   display: inline-block;
   margin: 10px 5px;
 }
-/* line 54, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .container .header .bar .yellow-circle {
   background-color: #ffef25;
   border-radius: 100%;
@@ -121,7 +122,7 @@ body {
   display: inline-block;
   margin: 10px 5px;
 }
-/* line 58, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .container .header .bar .green-circle {
   background-color: green;
   border-radius: 100%;
@@ -130,34 +131,34 @@ body {
   display: inline-block;
   margin: 10px 5px;
 }
-/* line 63, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .container .header .login-info {
   float: right;
   margin-top: 20px;
   font-size: 1.5em;
 }
-/* line 68, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 .container .header .login-info a {
-  color: #ffffff;
+  color: #fafafa;
   margin: 5px;
   text-decoration: none;
+  font-style: bold;
 }
 /* line 73, ../sass/style.scss */
 .container .header .login-info .signin-btn {
   padding: 8px;
   margin-right: 20px;
-  border: 1px solid #ffffff;
+  border: 1px solid #fafafa;
 }
 /* line 79, ../sass/style.scss */
 .container .header .search-info {
   width: 100%;
   margin: 200px auto;
-  font-family: sans-serif;
 }
 /* line 83, ../sass/style.scss */
 .container .header .search-info h2, .container .header .search-info h4, .container .header .search-info .search-btn, .container .header .search-info .search-fields {
   text-align: center;
-  color: #fcfcfc;
+  color: #fafafa;
 }
 /* line 89, ../sass/style.scss */
 .container .header .search-info h2 {
@@ -168,7 +169,7 @@ body {
 .container .header .search-info h4 {
   font-size: 1.3em;
   margin: 10px 0px;
-  color: #dddddd;
+  color: #eeeeee;
 }
 /* line 100, ../sass/style.scss */
 .container .header .search-fields {
@@ -189,7 +190,7 @@ body {
   width: 10%;
   height: 50px;
   color: #fcfcfc;
-  background-color: #74f37f;
+  background-color: #66d690;
   border: none;
   font-size: 1.4em;
 }
@@ -457,7 +458,7 @@ body {
   text-align: center;
   width: 552px;
 }
-/* line 392, ../sass/style.scss */
+/* line 391, ../sass/style.scss */
 .container .content .people .avatar li {
   float: left;
   width: 120px;
@@ -466,9 +467,45 @@ body {
   border: 1px #ddd solid;
   padding: 6px;
 }
-/* line 401, ../sass/style.scss */
+/* line 400, ../sass/style.scss */
 .container .content .people .avatar img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+}
+/* line 412, ../sass/style.scss */
+.container .footer {
+  background-image: url(../img/footer.jpg);
+  height: 300px;
+  width: 100%;
+  text-align: center;
+}
+/* line 418, ../sass/style.scss */
+.container .footer .search-fields {
+  padding-top: 100px;
+}
+/* line 422, ../sass/style.scss */
+.container .footer span {
+  font-size: 2.3em;
+  margin-right: 30px;
+  color: white;
+}
+/* line 428, ../sass/style.scss */
+.container .footer input {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: #fcfcfc;
+  border: none;
+  height: 48px;
+  width: 40%;
+  font-size: 1.4em;
+}
+/* line 438, ../sass/style.scss */
+.container .footer button {
+  width: 10%;
+  height: 50px;
+  color: #fcfcfc;
+  background-color: #66d690;
+  border: none;
+  font-size: 1.4em;
 }

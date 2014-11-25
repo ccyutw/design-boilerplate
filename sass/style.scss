@@ -10,14 +10,13 @@
   margin: 10px 5px;
 }
 
-
 body {
   background-color: grey;
-
+  font-family: sans-serif;
 
 }
 
-.text-centered{
+.text-centered {
   text-align: center;
 }
 
@@ -26,7 +25,7 @@ body {
   margin: 10px auto;
   border-radius: 10px;
   overflow: hidden;
-  font-size:62.5%;
+  font-size: 62.5%;
 
   .fa-7x {
     font-size: 7em;
@@ -41,7 +40,7 @@ body {
   }
 
   .header {
-    background-image: url(../img/bgimg.png);
+    background-image: url(../img/header.jpg);
     height: 600px;
     width: 100%;
 
@@ -66,23 +65,24 @@ body {
       font-size: 1.5em;
 
       a {
-        color: #ffffff;
+        color: #fafafa;
         margin: 5px;
         text-decoration: none;
+        font-style: bold;
       }
       .signin-btn {
         padding: 8px;
         margin-right: 20px;
-        border: 1px solid #ffffff;
+        border: 1px solid #fafafa;
       }
     }
     .search-info {
-      width:100%;
+      width: 100%;
       margin: 200px auto;
-      font-family: sans-serif;
-      h2,h4, .search-btn,.search-fields {
+
+      h2, h4, .search-btn, .search-fields {
         text-align: center;
-        color: #fcfcfc;
+        color: #fafafa;
 
       }
 
@@ -94,13 +94,13 @@ body {
       h4 {
         font-size: 1.3em;
         margin: 10px 0px;
-        color: #dddddd;
+        color: #eeeeee;
       }
     }
     .search-fields {
       margin-top: 30px;
 
-      input{
+      input {
         border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
         background-color: rgba(221, 221, 221, 0.29);
@@ -114,7 +114,7 @@ body {
         width: 10%;
         height: 50px;
         color: #fcfcfc;
-        background-color: rgb(116, 243, 127);
+        background-color: rgb(102, 214, 144);
         border: none;
         font-size: 1.4em;
       }
@@ -122,7 +122,7 @@ body {
 
   }
 
-  .content{
+  .content {
     width: 100%;
     font-family: sans-serif;
     font-size: 62.5%;
@@ -136,7 +136,7 @@ body {
       li {
         box-sizing: border-box;
         float: left;
-        width:25%;
+        width: 25%;
         padding-top: 40px;
         padding-bottom: 31px;
         text-align: center;
@@ -258,7 +258,7 @@ body {
         font-size: 3.2em;
       }
 
-      h1::before{
+      h1::before {
         content: "";
         display: block;
         z-index: 0;
@@ -388,7 +388,6 @@ body {
         text-align: center;
         width: 552px;
 
-
         li {
           float: left;
           width: 120px;
@@ -398,17 +397,52 @@ body {
           padding: 6px;
         }
 
-          img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
+        img {
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
 
         }
       }
 
     }
 
+  }
 
+  .footer {
+    background-image: url(../img/footer.jpg);
+    height: 300px;
+    width: 100%;
+    text-align: center;
+
+    .search-fields {
+      padding-top: 100px;
+    }
+
+    span {
+      font-size: 2.3em;
+      margin-right: 30px;
+      color: white;
+    }
+
+    input {
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+      background-color: rgb(252, 252, 252);
+      border: none;
+      height: 48px;
+      width: 40%;
+      font-size: 1.4em;
+    }
+
+    button {
+      width: 10%;
+      height: 50px;
+      color: #fcfcfc;
+      background-color: rgb(102, 214, 144);
+      border: none;
+      font-size: 1.4em;
+    }
   }
 
 }
