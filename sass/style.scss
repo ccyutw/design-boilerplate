@@ -15,11 +15,16 @@ body {
   background-color: grey;
 }
 
+.text-centered{
+  text-align: center;
+}
+
 .container {
   width: 1000px;
   margin: 10px auto;
   border-radius: 10px;
   overflow: hidden;
+  font-size:62.5%;
 
   .header {
     background-image: url(../img/bgimg.png);
@@ -44,6 +49,7 @@ body {
     .login-info {
       float: right;
       margin-top: 20px;
+      font-size: 1.5em;
 
       a {
         color: #ffffff;
@@ -57,12 +63,47 @@ body {
       }
     }
     .search-info {
-      width:40%;
-      margin: 300px auto;
+      width:100%;
+      margin: 200px auto;
+      font-family: sans-serif;
       h2,h4, .search-btn,.search-fields {
         text-align: center;
+        color: #fcfcfc;
+
       }
 
+      h2 {
+        font-size: 2.5em;
+        margin: 10px 0px 0px 0px;
+      }
+
+      h4 {
+        font-size: 1.3em;
+        margin: 10px 0px;
+        color: #dddddd;
+      }
+    }
+    .search-fields {
+      margin-top: 30px;
+
+      input{
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        background-color: rgba(221, 221, 221, 0.29);
+        border: none;
+        height: 60px;
+        width: 50%;
+        font-size: 1.4em;
+      }
+
+      button {
+        width: 10%;
+        height: 60px;
+        color: #fcfcfc;
+        background-color: rgb(116, 243, 127);
+        border: none;
+        font-size: 1.4em;
+      }
     }
 
   }
