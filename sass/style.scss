@@ -13,6 +13,8 @@
 
 body {
   background-color: grey;
+
+
 }
 
 .text-centered{
@@ -25,6 +27,10 @@ body {
   border-radius: 10px;
   overflow: hidden;
   font-size:62.5%;
+
+  .fa-7x {
+    font-size: 7em;
+  }
 
   .header {
     background-image: url(../img/bgimg.png);
@@ -142,16 +148,20 @@ body {
 
     .compare {
       background-color: rgb(241, 240, 237);
-      height: 1000px;
+      height: 420px;
       margin-top: -60px;
       padding-top: 60px;
       text-align: center;
-      border-bottom: 1px solid rgb(221, 221, 221);
+      border-bottom: 1px solid rgb(130, 130, 130);
+      color: #666666;;
 
       .title {
         color: rgb(90, 95, 111);
         font-size: 2.5em;
-        padding: 50px 0 30px 0;
+        padding: 50px 0 50px 0;
+        border-bottom: 2px solid #dddddd;
+        width: 62%;
+        margin-left: 190px;
       }
 
       .title::after {
@@ -159,12 +169,20 @@ body {
         //TODO
       }
 
+      ul {
+        margin-top: -30px;
+      }
 
       li {
 
         text-align: center;
         width: 33.13%;
         float: left;
+
+        .description {
+          margin-left: 40px;
+          width: 245px;
+        }
 
         h2 {
           font-size: 2.5em;
@@ -178,9 +196,40 @@ body {
           background-color: rgb(241, 240, 237);
         }
 
+        i {
+          margin: 30px auto;
+        }
+
+        .fa-list-alt {
+          color: #e2a961;
+        }
+
+        .fa-pencil {
+          color: #735a9e;
+        }
+
+        .fa-users {
+          color: #4a60cd;
+        }
+
+        h3 {
+          font-size: 3.2em;
+          margin-bottom: 30px;
+        }
+
+        paragraph {
+          font-size: 1.8em;
+          line-height: 20px;
+          margin: 10px auto 120px auto;
+          color: #b1b4b9;
+          width: 20%;
+        }
+
       }
 
     }
+
+
   }
 
 }
