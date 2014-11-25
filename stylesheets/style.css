@@ -90,16 +90,20 @@ body {
   font-size: 5em;
 }
 /* line 39, ../sass/style.scss */
+.container .fa-2x {
+  font-size: 3em;
+}
+/* line 43, ../sass/style.scss */
 .container .header {
   background-image: url(../img/bgimg.png);
   height: 600px;
   width: 100%;
 }
-/* line 44, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 .container .header .bar {
   background-color: #fcfcfc;
 }
-/* line 46, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .container .header .bar .red-circle {
   background-color: red;
   border-radius: 100%;
@@ -108,7 +112,7 @@ body {
   display: inline-block;
   margin: 10px 5px;
 }
-/* line 50, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 .container .header .bar .yellow-circle {
   background-color: #ffef25;
   border-radius: 100%;
@@ -117,7 +121,7 @@ body {
   display: inline-block;
   margin: 10px 5px;
 }
-/* line 54, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .container .header .bar .green-circle {
   background-color: green;
   border-radius: 100%;
@@ -126,51 +130,51 @@ body {
   display: inline-block;
   margin: 10px 5px;
 }
-/* line 59, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .container .header .login-info {
   float: right;
   margin-top: 20px;
   font-size: 1.5em;
 }
-/* line 64, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .container .header .login-info a {
   color: #ffffff;
   margin: 5px;
   text-decoration: none;
 }
-/* line 69, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .container .header .login-info .signin-btn {
   padding: 8px;
   margin-right: 20px;
   border: 1px solid #ffffff;
 }
-/* line 75, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 .container .header .search-info {
   width: 100%;
   margin: 200px auto;
   font-family: sans-serif;
 }
-/* line 79, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 .container .header .search-info h2, .container .header .search-info h4, .container .header .search-info .search-btn, .container .header .search-info .search-fields {
   text-align: center;
   color: #fcfcfc;
 }
-/* line 85, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 .container .header .search-info h2 {
   font-size: 2.5em;
   margin: 10px 0px 0px 0px;
 }
-/* line 90, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 .container .header .search-info h4 {
   font-size: 1.3em;
   margin: 10px 0px;
   color: #dddddd;
 }
-/* line 96, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .container .header .search-fields {
   margin-top: 30px;
 }
-/* line 99, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 .container .header .search-fields input {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
@@ -180,7 +184,7 @@ body {
   width: 50%;
   font-size: 1.4em;
 }
-/* line 109, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 .container .header .search-fields button {
   width: 10%;
   height: 50px;
@@ -189,21 +193,21 @@ body {
   border: none;
   font-size: 1.4em;
 }
-/* line 121, ../sass/style.scss */
+/* line 125, ../sass/style.scss */
 .container .content {
   width: 100%;
   font-family: sans-serif;
   font-size: 62.5%;
   background-color: rgba(241, 240, 237, 0);
 }
-/* line 127, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .container .content .data {
   height: 114px;
   margin: -60px auto 0px;
   width: 80%;
   background-color: #f1f0ed;
 }
-/* line 132, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .container .content .data li {
   box-sizing: border-box;
   float: left;
@@ -213,17 +217,17 @@ body {
   text-align: center;
   border: 1px solid rgba(221, 221, 221, 0.98);
 }
-/* line 142, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 .container .content .data h2 {
   font-size: 3.2em;
   padding-bottom: 10px;
 }
-/* line 147, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .container .content .data paragraph {
   font-size: 1.8em;
   color: #8f8f8f;
 }
-/* line 153, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 .container .content .compare {
   background-color: #f1f0ed;
   height: 450px;
@@ -233,7 +237,7 @@ body {
   border-bottom: 2px solid #dddddd;
   color: #666666;
 }
-/* line 162, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 .container .content .compare .title {
   color: #5a5f6f;
   font-size: 2.5em;
@@ -242,7 +246,7 @@ body {
   width: 62%;
   margin-left: 190px;
 }
-/* line 171, ../sass/style.scss */
+/* line 175, ../sass/style.scss */
 .container .content .compare .title::before {
   content: "";
   display: block;
@@ -254,23 +258,23 @@ body {
   border-bottom: 1px solid #fcfcfc;
   top: 30px;
 }
-/* line 183, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .container .content .compare ul {
   margin-top: -27px;
   margin-left: 45px;
 }
-/* line 188, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .container .content .compare li {
   text-align: center;
   width: 30.7%;
   float: left;
 }
-/* line 194, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .container .content .compare li .description {
   margin-left: 40px;
   width: 245px;
 }
-/* line 199, ../sass/style.scss */
+/* line 203, ../sass/style.scss */
 .container .content .compare li h2 {
   font-size: 2.5em;
   text-align: center;
@@ -282,28 +286,28 @@ body {
   border: 2px solid #dddddd;
   background-color: #f1f0ed;
 }
-/* line 211, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 .container .content .compare li i {
   margin: 30px auto;
 }
-/* line 215, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 .container .content .compare li .fa-list-alt {
   color: #e2a961;
 }
-/* line 219, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 .container .content .compare li .fa-pencil {
   color: #735a9e;
 }
-/* line 223, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .container .content .compare li .fa-users {
   color: #4a60cd;
 }
-/* line 227, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 .container .content .compare li h3 {
   font-size: 3.2em;
   margin-bottom: 30px;
 }
-/* line 232, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 .container .content .compare li paragraph {
   font-size: 1.8em;
   line-height: 20px;
@@ -311,7 +315,7 @@ body {
   color: #b1b4b9;
   width: 20%;
 }
-/* line 244, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 .container .content .reason {
   background-color: #f1f0ed;
   height: 520px;
@@ -319,13 +323,13 @@ body {
   border-bottom: 2px solid #dddddd;
   color: #666666;
 }
-/* line 251, ../sass/style.scss */
+/* line 255, ../sass/style.scss */
 .container .content .reason h1 {
   padding-top: 60px;
   padding-bottom: 40px;
   font-size: 3.2em;
 }
-/* line 257, ../sass/style.scss */
+/* line 261, ../sass/style.scss */
 .container .content .reason h1::before {
   content: "";
   display: block;
@@ -337,13 +341,13 @@ body {
   border-bottom: 1px solid #fcfcfc;
   top: 30px;
 }
-/* line 269, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 .container .content .reason ul {
   overflow: hidden;
   text-align: left;
   margin-left: 60px;
 }
-/* line 275, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 .container .content .reason li {
   box-sizing: border-box;
   width: 50%;
@@ -353,49 +357,118 @@ body {
   padding-left: 75px;
   padding-right: 80px;
 }
-/* line 285, ../sass/style.scss */
+/* line 289, ../sass/style.scss */
 .container .content .reason i {
   position: absolute;
   margin-left: -12%;
 }
-/* line 290, ../sass/style.scss */
+/* line 294, ../sass/style.scss */
 .container .content .reason .fa-check {
   color: #6ee78e;
 }
-/* line 294, ../sass/style.scss */
+/* line 298, ../sass/style.scss */
 .container .content .reason .fa-refresh {
   color: #3bb4ec;
 }
-/* line 298, ../sass/style.scss */
+/* line 302, ../sass/style.scss */
 .container .content .reason .fa-file-text {
   color: #f99b2b;
 }
-/* line 302, ../sass/style.scss */
+/* line 306, ../sass/style.scss */
 .container .content .reason .fa-tag {
   color: #b583ff;
 }
-/* line 306, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 .container .content .reason .fa-user {
   color: #ff589a;
 }
-/* line 310, ../sass/style.scss */
+/* line 314, ../sass/style.scss */
 .container .content .reason .fa-thumbs-up {
   color: #dba718;
 }
-/* line 314, ../sass/style.scss */
+/* line 318, ../sass/style.scss */
 .container .content .reason h2 {
   font-size: 3.2em;
   margin-bottom: 20px;
 }
-/* line 319, ../sass/style.scss */
+/* line 323, ../sass/style.scss */
 .container .content .reason paragraph {
   font-size: 2.0em;
+  color: darkgrey;
 }
-/* line 325, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 .container .content .people {
   background-color: #f1f0ed;
-  height: 320px;
+  height: 520px;
   text-align: center;
   border-bottom: 2px solid #dddddd;
   color: #666666;
+}
+/* line 337, ../sass/style.scss */
+.container .content .people .tabs {
+  margin: 0 auto;
+  width: 410px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-size: 3em;
+}
+/* line 347, ../sass/style.scss */
+.container .content .people .tabs li {
+  width: 200px;
+  float: left;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #4e5367;
+  border: 1px #4e5367 solid;
+  color: #f6f6f6;
+}
+/* line 359, ../sass/style.scss */
+.container .content .people .tabs li:last-child {
+  background-color: #f6f6f6;
+  color: #4e5367;
+}
+/* line 365, ../sass/style.scss */
+.container .content .people .fa-quote-left {
+  color: rgba(173, 173, 173, 0.77);
+  margin-bottom: 20px;
+}
+/* line 370, ../sass/style.scss */
+.container .content .people .sentence {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+/* line 375, ../sass/style.scss */
+.container .content .people .name {
+  font-size: 3em;
+  margin: 20px auto;
+}
+/* line 380, ../sass/style.scss */
+.container .content .people .title {
+  font-size: 3em;
+  color: darkgrey;
+}
+/* line 385, ../sass/style.scss */
+.container .content .people .avatar {
+  margin: 20px auto 120px auto;
+  overflow: hidden;
+  text-align: center;
+  width: 552px;
+}
+/* line 392, ../sass/style.scss */
+.container .content .people .avatar li {
+  float: left;
+  width: 120px;
+  margin: auto 25px;
+  border-radius: 50%;
+  border: 1px #ddd solid;
+  padding: 6px;
+}
+/* line 401, ../sass/style.scss */
+.container .content .people .avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 }

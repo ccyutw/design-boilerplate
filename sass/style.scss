@@ -36,6 +36,10 @@ body {
     font-size: 5em;
   }
 
+  .fa-2x {
+    font-size: 3em;
+  }
+
   .header {
     background-image: url(../img/bgimg.png);
     height: 600px;
@@ -318,16 +322,90 @@ body {
 
       paragraph {
         font-size: 2.0em;
+        color: darkgrey;
       }
 
     }
 
     .people {
       background-color: rgb(241, 240, 237);
-      height: 320px;
+      height: 520px;
       text-align: center;
       border-bottom: 2px solid rgb(221, 221, 221);
       color: #666666;
+
+      .tabs {
+        margin: 0 auto;
+        width: 410px;
+        overflow: hidden;
+        position: relative;
+        padding-top: 60px;
+        padding-bottom: 40px;
+
+        font-size: 3em;
+
+        li {
+          width: 200px;
+          float: left;
+          height: 60px;
+          text-align: center;
+          line-height: 60px;
+
+          background-color: #4e5367;
+          border: 1px #4e5367 solid;
+          color: #f6f6f6;
+        }
+
+        li:last-child {
+          background-color: #f6f6f6;
+          color: #4e5367;
+        }
+      }
+
+      .fa-quote-left {
+        color: rgba(173, 173, 173, 0.77);
+        margin-bottom: 20px;
+      }
+
+      .sentence {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+      }
+
+      .name {
+        font-size: 3em;
+        margin: 20px auto;
+      }
+
+      .title {
+        font-size: 3em;
+        color: darkgrey;
+      }
+
+      .avatar {
+        margin: 20px auto 120px auto;
+        overflow: hidden;
+        text-align: center;
+        width: 552px;
+
+
+        li {
+          float: left;
+          width: 120px;
+          margin: auto 25px;
+          border-radius: 50%;
+          border: 1px #ddd solid;
+          padding: 6px;
+        }
+
+          img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+
+        }
+      }
+
     }
 
 
