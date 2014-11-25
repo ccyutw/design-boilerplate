@@ -91,14 +91,14 @@ body {
         border-bottom-left-radius: 3px;
         background-color: rgba(221, 221, 221, 0.29);
         border: none;
-        height: 60px;
+        height: 50px;
         width: 50%;
         font-size: 1.4em;
       }
 
       button {
         width: 10%;
-        height: 60px;
+        height: 50px;
         color: #fcfcfc;
         background-color: rgb(116, 243, 127);
         border: none;
@@ -106,6 +106,39 @@ body {
       }
     }
 
+  }
+
+  .content{
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 62.5%;
+    background-color: rgba(241, 240, 237, 0);
+
+    .data {
+      height: 114px;
+      margin: -60px auto 0px;
+      width: 80%;
+      background-color: rgb(241, 240, 237);
+      li {
+        box-sizing: border-box;
+        float: left;
+        width:25%;
+        padding-top: 40px;
+        padding-bottom: 31px;
+        text-align: center;
+        border: 1px solid rgba(221, 221, 221, 0.98);
+      }
+
+      h2 {
+        font-size: 3.2em;
+        padding-bottom: 10px;
+      }
+
+      paragraph {
+        font-size: 1.8em;
+        color: #8f8f8f;
+      }
+    }
   }
 
 }
