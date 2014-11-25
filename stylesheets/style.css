@@ -86,16 +86,20 @@ body {
   font-size: 7em;
 }
 /* line 35, ../sass/style.scss */
+.container .fa-3x {
+  font-size: 5em;
+}
+/* line 39, ../sass/style.scss */
 .container .header {
   background-image: url(../img/bgimg.png);
   height: 600px;
   width: 100%;
 }
-/* line 40, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 .container .header .bar {
   background-color: #fcfcfc;
 }
-/* line 42, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 .container .header .bar .red-circle {
   background-color: red;
   border-radius: 100%;
@@ -104,7 +108,7 @@ body {
   display: inline-block;
   margin: 10px 5px;
 }
-/* line 46, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .container .header .bar .yellow-circle {
   background-color: #ffef25;
   border-radius: 100%;
@@ -113,7 +117,7 @@ body {
   display: inline-block;
   margin: 10px 5px;
 }
-/* line 50, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 .container .header .bar .green-circle {
   background-color: green;
   border-radius: 100%;
@@ -122,51 +126,51 @@ body {
   display: inline-block;
   margin: 10px 5px;
 }
-/* line 55, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .container .header .login-info {
   float: right;
   margin-top: 20px;
   font-size: 1.5em;
 }
-/* line 60, ../sass/style.scss */
+/* line 64, ../sass/style.scss */
 .container .header .login-info a {
   color: #ffffff;
   margin: 5px;
   text-decoration: none;
 }
-/* line 65, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 .container .header .login-info .signin-btn {
   padding: 8px;
   margin-right: 20px;
   border: 1px solid #ffffff;
 }
-/* line 71, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .container .header .search-info {
   width: 100%;
   margin: 200px auto;
   font-family: sans-serif;
 }
-/* line 75, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 .container .header .search-info h2, .container .header .search-info h4, .container .header .search-info .search-btn, .container .header .search-info .search-fields {
   text-align: center;
   color: #fcfcfc;
 }
-/* line 81, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 .container .header .search-info h2 {
   font-size: 2.5em;
   margin: 10px 0px 0px 0px;
 }
-/* line 86, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .container .header .search-info h4 {
   font-size: 1.3em;
   margin: 10px 0px;
   color: #dddddd;
 }
-/* line 92, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .container .header .search-fields {
   margin-top: 30px;
 }
-/* line 95, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 .container .header .search-fields input {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
@@ -176,7 +180,7 @@ body {
   width: 50%;
   font-size: 1.4em;
 }
-/* line 105, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 .container .header .search-fields button {
   width: 10%;
   height: 50px;
@@ -185,21 +189,21 @@ body {
   border: none;
   font-size: 1.4em;
 }
-/* line 117, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .container .content {
   width: 100%;
   font-family: sans-serif;
   font-size: 62.5%;
   background-color: rgba(241, 240, 237, 0);
 }
-/* line 123, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 .container .content .data {
   height: 114px;
   margin: -60px auto 0px;
   width: 80%;
   background-color: #f1f0ed;
 }
-/* line 128, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 .container .content .data li {
   box-sizing: border-box;
   float: left;
@@ -209,55 +213,64 @@ body {
   text-align: center;
   border: 1px solid rgba(221, 221, 221, 0.98);
 }
-/* line 138, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 .container .content .data h2 {
   font-size: 3.2em;
   padding-bottom: 10px;
 }
-/* line 143, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .container .content .data paragraph {
   font-size: 1.8em;
   color: #8f8f8f;
 }
-/* line 149, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 .container .content .compare {
   background-color: #f1f0ed;
-  height: 420px;
+  height: 450px;
   margin-top: -60px;
   padding-top: 60px;
   text-align: center;
-  border-bottom: 1px solid #828282;
+  border-bottom: 2px solid #dddddd;
   color: #666666;
 }
-/* line 158, ../sass/style.scss */
+/* line 162, ../sass/style.scss */
 .container .content .compare .title {
   color: #5a5f6f;
   font-size: 2.5em;
-  padding: 50px 0 50px 0;
+  padding: 50px 0 85px 0;
   border-bottom: 2px solid #dddddd;
   width: 62%;
   margin-left: 190px;
 }
-/* line 167, ../sass/style.scss */
-.container .content .compare .title::after {
-  content: '';
+/* line 171, ../sass/style.scss */
+.container .content .compare .title::before {
+  content: "";
+  display: block;
+  z-index: 0;
+  position: relative;
+  width: 40px;
+  margin: 0 auto;
+  border-top: 3px solid #e6e6e6;
+  border-bottom: 1px solid #fcfcfc;
+  top: 30px;
 }
-/* line 172, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .container .content .compare ul {
-  margin-top: -30px;
+  margin-top: -27px;
+  margin-left: 45px;
 }
-/* line 176, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 .container .content .compare li {
   text-align: center;
-  width: 33.13%;
+  width: 30.7%;
   float: left;
 }
-/* line 182, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 .container .content .compare li .description {
   margin-left: 40px;
   width: 245px;
 }
-/* line 187, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .container .content .compare li h2 {
   font-size: 2.5em;
   text-align: center;
@@ -269,32 +282,120 @@ body {
   border: 2px solid #dddddd;
   background-color: #f1f0ed;
 }
-/* line 199, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .container .content .compare li i {
   margin: 30px auto;
 }
-/* line 203, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 .container .content .compare li .fa-list-alt {
   color: #e2a961;
 }
-/* line 207, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 .container .content .compare li .fa-pencil {
   color: #735a9e;
 }
-/* line 211, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 .container .content .compare li .fa-users {
   color: #4a60cd;
 }
-/* line 215, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .container .content .compare li h3 {
   font-size: 3.2em;
   margin-bottom: 30px;
 }
-/* line 220, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 .container .content .compare li paragraph {
   font-size: 1.8em;
   line-height: 20px;
   margin: 10px auto 120px auto;
   color: #b1b4b9;
   width: 20%;
+}
+/* line 244, ../sass/style.scss */
+.container .content .reason {
+  background-color: #f1f0ed;
+  height: 520px;
+  text-align: center;
+  border-bottom: 2px solid #dddddd;
+  color: #666666;
+}
+/* line 251, ../sass/style.scss */
+.container .content .reason h1 {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-size: 3.2em;
+}
+/* line 257, ../sass/style.scss */
+.container .content .reason h1::before {
+  content: "";
+  display: block;
+  z-index: 0;
+  position: relative;
+  width: 40px;
+  margin: 0 auto;
+  border-top: 3px solid #e6e6e6;
+  border-bottom: 1px solid #fcfcfc;
+  top: 30px;
+}
+/* line 269, ../sass/style.scss */
+.container .content .reason ul {
+  overflow: hidden;
+  text-align: left;
+  margin-left: 60px;
+}
+/* line 275, ../sass/style.scss */
+.container .content .reason li {
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  margin: 20px 0;
+  position: relative;
+  padding-left: 75px;
+  padding-right: 80px;
+}
+/* line 285, ../sass/style.scss */
+.container .content .reason i {
+  position: absolute;
+  margin-left: -12%;
+}
+/* line 290, ../sass/style.scss */
+.container .content .reason .fa-check {
+  color: #6ee78e;
+}
+/* line 294, ../sass/style.scss */
+.container .content .reason .fa-refresh {
+  color: #3bb4ec;
+}
+/* line 298, ../sass/style.scss */
+.container .content .reason .fa-file-text {
+  color: #f99b2b;
+}
+/* line 302, ../sass/style.scss */
+.container .content .reason .fa-tag {
+  color: #b583ff;
+}
+/* line 306, ../sass/style.scss */
+.container .content .reason .fa-user {
+  color: #ff589a;
+}
+/* line 310, ../sass/style.scss */
+.container .content .reason .fa-thumbs-up {
+  color: #dba718;
+}
+/* line 314, ../sass/style.scss */
+.container .content .reason h2 {
+  font-size: 3.2em;
+  margin-bottom: 20px;
+}
+/* line 319, ../sass/style.scss */
+.container .content .reason paragraph {
+  font-size: 2.0em;
+}
+/* line 325, ../sass/style.scss */
+.container .content .people {
+  background-color: #f1f0ed;
+  height: 320px;
+  text-align: center;
+  border-bottom: 2px solid #dddddd;
+  color: #666666;
 }
